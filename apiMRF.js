@@ -40,36 +40,3 @@ console.log(dollarUsCountry);
 }
 
 
-//     var request=new XMLHttpRequest();
-// request.open('GET','https://restcountries.com/v2/all');
-// request.send();
-// request.onload=function() {
-//     var data=JSON.parse(this.response);
-//     var countries=data.filter((data)=>population<200000)
-  
-//    console.log(countries);
-//     }
-
-//     var request=new XMLHttpRequest();
-//     request.open('GET','https://restcountries.com/v2/all');
-//     request.send();
-//     request.onload=function() {
-//         var data=JSON.parse(this.response);
-//         var countries=data.map((data)=>{
-//            return (data.name,data.capital,data.flag)
-//         })
-      
-//        console.log(countries);
-//         }
-
-//         var request=new XMLHttpRequest();
-// request.open('GET','https://restcountries.com/v2/all');
-// request.send();
-// request.onload=function() {
-//     var data=JSON.parse(this.response);
-//     var population=data.reduce((acc,init)=>{
-//         return acc+init;
-//     },0)
-  
-//    console.log(population);
-//     }
